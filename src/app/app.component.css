@@ -1,0 +1,83 @@
+
+/* Contact Us lateral */
+
+.by-side{
+    float:left;
+}
+
+.textorientation{
+    writing-mode: vertical-rl;
+    text-align: center;
+    position: relative;
+}
+
+.dontchange{
+    writing-mode: initial;
+}
+
+.p-contact{
+    padding: 0 !important; 
+    margin: -1em 0 0 1em !important;
+    text-align: center;
+    font-size: 32px; 
+    color: black;
+}
+
+.icon-contact{
+    font-size:8.3em;  
+    margin-left: 0.7em; 
+    padding: 0;
+    color: blueviolet;
+}
+
+.sidepanel  {  
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    width: 60px;
+    position: fixed;
+    z-index: 1;
+    height: 270px;
+    top: 21%;
+    right: 0;
+    float: right;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    border-radius: 2%;  
+  }
+  
+  .sidepanel a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+    height: 100%;
+  }
+  
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    /* padding: 10px 15px; */
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color:#444;
+  }
